@@ -1,0 +1,104 @@
+body {
+  background-color: aqua;
+}
+.web {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.pap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.gambar {
+  width: 200px;
+}
+
+section {
+  min-height: 100vh;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
+
+
+section {
+  min-height: 100vh;
+  padding: 60px 20px;
+}
+
+
+.navbar {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#home {
+  background: linear-gradient(135deg, #007bff, #6610f2);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#about {
+  background-color: #f8f9fa;
+}
+
+#education {
+  background-color: #ffffff;
+}
+
+#skill {
+  background-color: #e9ecef;
+}
+
+#contact {
+  background-color: #f8f9fa;
+}
+
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #007bff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+form input,
+form textarea {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
